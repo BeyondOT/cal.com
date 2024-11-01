@@ -47,76 +47,76 @@ const tabs: VerticalTabItemProps[] = [
       { name: "2fa_auth", href: "/settings/security/two-factor-auth" },
     ],
   },
-  {
-    name: "billing",
-    href: "/settings/billing",
-    icon: "credit-card",
-    children: [{ name: "manage_billing", href: "/settings/billing" }],
-  },
-  {
-    name: "developer",
-    href: "/settings/developer",
-    icon: "terminal",
-    children: [
-      //
-      { name: "webhooks", href: "/settings/developer/webhooks" },
-      { name: "api_keys", href: "/settings/developer/api-keys" },
-      { name: "admin_api", href: "/settings/organizations/admin-api" },
-      // TODO: Add profile level for embeds
-      // { name: "embeds", href: "/v2/settings/developer/embeds" },
-    ],
-  },
-  {
-    name: "organization",
-    href: "/settings/organizations",
-    children: [
-      {
-        name: "profile",
-        href: "/settings/organizations/profile",
-      },
-      {
-        name: "general",
-        href: "/settings/organizations/general",
-      },
-      {
-        name: "members",
-        href: "/settings/organizations/members",
-      },
-      {
-        name: "privacy",
-        href: "/settings/organizations/privacy",
-      },
-      {
-        name: "billing",
-        href: "/settings/organizations/billing",
-      },
-      { name: "OAuth Clients", href: "/settings/organizations/platform/oauth-clients" },
-      {
-        name: "SSO",
-        href: "/settings/organizations/sso",
-      },
-      {
-        name: "directory_sync",
-        href: "/settings/organizations/dsync",
-      },
-      {
-        name: "admin_api",
-        href: "https://cal.com/docs/enterprise-features/api/api-reference/bookings#admin-access",
-      },
-    ],
-  },
-  {
-    name: "teams",
-    href: "/teams",
-    icon: "users",
-    children: [],
-  },
-  {
-    name: "other_teams",
-    href: "/settings/organizations/teams/other",
-    icon: "users",
-    children: [],
-  },
+  // {
+  //   name: "billing",
+  //   href: "/settings/billing",
+  //   icon: "credit-card",
+  //   children: [{ name: "manage_billing", href: "/settings/billing" }],
+  // },
+  // {
+  //   name: "developer",
+  //   href: "/settings/developer",
+  //   icon: "terminal",
+  //   children: [
+  //     //
+  //     { name: "webhooks", href: "/settings/developer/webhooks" },
+  //     { name: "api_keys", href: "/settings/developer/api-keys" },
+  //     { name: "admin_api", href: "/settings/organizations/admin-api" },
+  //     // TODO: Add profile level for embeds
+  //     // { name: "embeds", href: "/v2/settings/developer/embeds" },
+  //   ],
+  // },
+  // {
+  //   name: "organization",
+  //   href: "/settings/organizations",
+  //   children: [
+  //     {
+  //       name: "profile",
+  //       href: "/settings/organizations/profile",
+  //     },
+  //     {
+  //       name: "general",
+  //       href: "/settings/organizations/general",
+  //     },
+  //     {
+  //       name: "members",
+  //       href: "/settings/organizations/members",
+  //     },
+  //     {
+  //       name: "privacy",
+  //       href: "/settings/organizations/privacy",
+  //     },
+  //     {
+  //       name: "billing",
+  //       href: "/settings/organizations/billing",
+  //     },
+  //     { name: "OAuth Clients", href: "/settings/organizations/platform/oauth-clients" },
+  //     {
+  //       name: "SSO",
+  //       href: "/settings/organizations/sso",
+  //     },
+  //     {
+  //       name: "directory_sync",
+  //       href: "/settings/organizations/dsync",
+  //     },
+  //     {
+  //       name: "admin_api",
+  //       href: "https://cal.com/docs/enterprise-features/api/api-reference/bookings#admin-access",
+  //     },
+  //   ],
+  // },
+  // {
+  //   name: "teams",
+  //   href: "/teams",
+  //   icon: "users",
+  //   children: [],
+  // },
+  // {
+  //   name: "other_teams",
+  //   href: "/settings/organizations/teams/other",
+  //   icon: "users",
+  //   children: [],
+  // },
   {
     name: "admin",
     href: "/settings/admin",

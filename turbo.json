@@ -47,7 +47,8 @@
         "STRIPE_ORG_MONTHLY_PRICE_ID",
         "NEXT_PUBLIC_API_V2_URL",
         "NEXT_PUBLIC_VAPID_PUBLIC_KEY",
-        "BUILD_STANDALONE"
+        "BUILD_STANDALONE",
+        "NEXT_PUBLIC_MEDUSA_BACKEND_URL"
       ]
     },
     "@calcom/web#dx": {

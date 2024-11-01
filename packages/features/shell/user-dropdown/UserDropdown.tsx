@@ -4,7 +4,6 @@ import { useEffect, useState } from "react";
 
 import HelpMenuItem from "@calcom/features/ee/support/components/HelpMenuItem";
 import { classNames } from "@calcom/lib";
-import { JOIN_COMMUNITY, ROADMAP, DESKTOP_APP_LINK } from "@calcom/lib/constants";
 import { useLocale } from "@calcom/lib/hooks/useLocale";
 import useMeQuery from "@calcom/trpc/react/hooks/useMeQuery";
 import {
@@ -151,7 +150,7 @@ export function UserDropdown({ small }: UserDropdownProps) {
                   </>
                 )}
 
-                <DropdownMenuItem>
+                {/* <DropdownMenuItem>
                   <DropdownItem
                     StartIcon="messages-square"
                     target="_blank"
@@ -197,7 +196,7 @@ export function UserDropdown({ small }: UserDropdownProps) {
                     </DropdownItem>
                   </DropdownMenuItem>
                 )}
-                <DropdownMenuSeparator />
+                <DropdownMenuSeparator /> */}
 
                 <DropdownMenuItem>
                   <DropdownItem
